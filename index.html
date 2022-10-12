@@ -1,0 +1,260 @@
+<html>
+
+<head>
+    <title>Home page</title>
+    <link href="Amazonhome.css" rel="stylesheet" type="text/css" />
+    <script src="home.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <img src="https://i.ibb.co/sWN8T2S/Amazon-Logo.png" alt="Amazon" class="Logo1">
+        </div>
+        <div class="Logo search">
+            <img src="https://i.ibb.co/RQvTMbP/search.png" alt="Amazon" class="searchHeight">
+        </div>
+        <div>
+            <input type="email" placeholder="Search Here" id="input-email">
+        </div>
+        <div>
+            <button class="ButtonA1" type="button">
+                Sign in
+            </button>
+        </div>
+        <div id="cartimg">
+            <img src="https://i.ibb.co/pXfx8xC/cart.png" alt="cart" id="cart">
+        </div>
+    </header>
+
+    
+
+        <div id="Navigation">
+            <ul>
+                <li><a href="Amazonhome.html" class="Nav">Home</a></li>
+                <li><a href="#BestSellers" class="Nav">Best Sellers</a></li>
+                <li><a href="#Mobile" class="Nav">Mobiles</a></li>
+                <li><a href="#Today's Deals" class="Nav">Today's Deals</a></li>
+                <li><a href="#books" class="Nav">Books</a></li>
+                <li><a href="#New Releases" class="Nav">New Releases</a></li>
+                <li><a href="#Fashion" class="Nav">Fashion</a></li>
+                <li><a href="#Customer Service" class="Nav">Customer Service</a></li>
+            </ul>
+            <!-- <span>Customer Service</span> -->
+            <div id="loaction">
+                <img src="https://i.ibb.co/LYgpqbD/location-removebg-preview.png" alt="location" id="loc1">
+            </div>
+            <p>Select Your Location</p>
+        </div>
+        <div id="quicksearch">
+
+            <div class="box">
+                <div class="inner">
+                    <center>
+                        <h1>Get Discount</h1>
+                        <div class="coupon">
+                            <button onClick="closeCoupon()">&times;</button>
+                            <img
+                                src="https://media.istockphoto.com/photos/coupons-picture-id171318979?b=1&k=20&m=171318979&s=170667a&w=0&h=UrBU1pmzKr_hQlrKS11_PwXqeHY06S9EZkwWBttZhkk=">
+                    </center>
+                    <script>
+                        window.onload = loadCoupon()
+                    </script>
+        
+        
+                </div>
+
+
+            <span id="quicksearchHeading">Quick Search</span>
+            <span id="quicksearchsubheading">Choose the Product by choice</span>
+            <div id="main">
+
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/41Wd9J6nfpL._AC_UF226,226_FMjpg_.jpg"
+                            alt="Mobile">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Mobile" target="_blank">Mobile</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Get You Favourite Mobiles Having Your Reqired Features
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/41uGARZtgFL._AC_UF226,226_FMjpg_.jpg"
+                            alt="Laptop">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Laptop" target="_blank">Laptop</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Buy Different Laptops With Required Configuaration
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/41qqmdUWnhL._AC_UF226,226_FMjpg_.jpg" alt="Watch">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Watch" target="_blank">Watch</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Get Smart Watches Having Calling and Other Smart Feature
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/31GJHCrcqKL._AC_UF226,226_FMjpg_.jpg" alt="Shoes">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Shoes" target="_blank">Shoes</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Buy 3 Shoes and Get 1 Shoe Free(Only For Today)
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/61ExUNlgw4L._AC_UF226,226_FMjpg_.jpg" alt="AC">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#AC" target="_blank">AC</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Enjoy this Summer with Cool Air
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/51JR9EeFqbL._AC_UF226,226_FMjpg_.jpg" alt="Cycle">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Cycle" target="_blank">Cycle</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Get Offer Upto 20% on this Weekend
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/51AvlCbdQ9L._AC_UF226,226_FMjpg_.jpg"
+                            alt="Vaccum Cleaner">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Vaccum Cleaner" target="_blank">Vaccum Cleaner</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Vaccum Cleaner from Top Brands
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/31CX58Q8-BL._AC_UF226,226_FMjpg_.jpg" alt="HDD">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#HDD" target="_blank">HDD</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            2GB External Hard Disks Starting INR 5000
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/61pdOyuwu6L._AC_UF226,226_FMjpg_.jpg"
+                            alt="Furniture">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Furniture" target="_blank">Furniture</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Bedroom Furniture from Amazon Brands & more
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/91jBsFb5cmL._AC_UF226,226_FMjpg_.png" alt="Chair">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Chair" target="_blank">Chair</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Office & Study Furniture from Amazon Brands & more
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/81koTixFtqL.jpg" alt="Soap">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Soap" target="_blank">Soap</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Santoor Aloe Fresh Soap with Aloe Vera
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="https://m.media-amazon.com/images/I/418s-q2FTwL.jpg" alt="Cleaner">
+                    </div>
+                    <div class="tilecontainer2">
+                        <div class="tilecontainerheading">
+                            <a href="#Cleaner" target="_blank">Cleaner</a>
+                        </div>
+                        <div class="tilecontainersubheading">
+                            Amazon Brand - Presto! Disinfectant Surface CCleaner
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="copy">&copy; Amazon</p>
+            <hr>
+            <div class="footdiv">
+                <a href="#Australia">Australia</a><br>
+                <a href="#Brazil">Brazil</a><br>
+                <a href="#Canada">Canada</a>
+            </div>
+            <div class="footdiv">
+                <a href="#Italy">Italy</a><br>
+                <a href="#Japan">Japan</a><br>
+                <a href="#Maxico">Maxico</a>
+            </div>
+            <div class="footdiv">
+                <a href="#Spain">Spain</a><br>
+                <a href="#Singapore">Singapore</a><br>
+                <a href="#Turkey">Turkey</a>
+            </div>
+            <div class="footdiv noborder">
+                <a href="#Chine">Chine</a><br>
+                <a href="#France">France</a><br>
+                <a href="#Poland">Poland</a>
+
+            </div>
+        </footer>
